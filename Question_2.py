@@ -47,4 +47,7 @@ driver.find_element(By.XPATH, '(//p[@class="size-buttons-unified-size"])[3]').cl
 driver.find_element(By.XPATH, '//div[. = "ADD TO BAG"]').click()
 
 ## closing all the tabs
+driver.quit()
+
+
 
